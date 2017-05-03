@@ -13,6 +13,6 @@ the *step2_train_nodule_detector.py* file. This will train various combinations 
 The mass detector can be trained using *step2_train_mass_segmenter.py*. It trains 3 folds and final models are stored in the models (names) folder. Training the 3D convnets will be around 10 hours per piece. The 3 mass detector folds will take around 8 hours in total
 
 #### Predicting neural nets
-Once trained or downloaded through the url (https://retinopaty.blob.core.windows.net/ndsb3/trained_models.rar) the models are placed in the ./models/ directory.
+Once trained, the models are placed in the ./models/ directory.
 From there the nodule detector *step3_predict_nodules.py*  can be run to detect nodules in a 3d grid per patient. The detected nodules and predicted malignancy are stored per patient in a separate directory. 
 The masses detector is already run through the *step2_train_mass_segmenter.py* and will stored a csv with estimated masses per patient.
