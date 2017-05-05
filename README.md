@@ -13,4 +13,7 @@ The project for EC500 K1
 
 *csv_to_pickle.py* converts the .csv to .pkl which is used in *LUNA_classify_nodes.py*
 
+*transfer_learning.py* uses ResNet-50 to extract features from lung masks and feed into XGBoost to classify
+
 *LUNA_classify_nodes.py* measures the features of the nodule candidates and feeds them into the classifier XGBoost
+
