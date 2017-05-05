@@ -8,6 +8,5 @@ The project for EC500 K1
 
 *LUNA_unet_seg.py* applies our ConvNet model to provide masks of nodule candidates of the segmented lungs
 
-*LUNA_classify_nodes.py* measures the features of the nodule candidates and sends them into the classifier XGBoost
-
+*LUNA_classify_nodes.py* measures the features of the nodule candidates and feeds them into the classifier XGBoost
 
