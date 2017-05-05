@@ -2,7 +2,7 @@
 The project for EC500 K1
 
 #### Files Description(in the order of running)
-*LUNA_mask_extraction.py* is a file that generate masks on lungs for segmenting lungs in the following step.
+*LUNA_mask_extraction.py* generates masks on lungs for segmenting lungs in the following step.
 
 *LUNA_segment_lung.py* uses the masks from the last step to implement the segmentation
 
