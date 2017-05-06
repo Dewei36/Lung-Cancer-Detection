@@ -17,6 +17,5 @@ The project for EC500 K1
 
 *LUNA_classify_nodes.py* measures the features of the nodule candidates and feeds them into the classifier XGBoost
 
-After training the ConvNet model, download the data set from Kaggle Data Science Bowl 2017 https://www.kaggle.com/c/data-science-bowl-2017/data
 
 
