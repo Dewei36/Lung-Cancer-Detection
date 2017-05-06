@@ -3,7 +3,7 @@ The project for EC500 K1
 
 #### Files Description (in the order of running)
 
-*GoogledriveDownload.py* downloads the LUNA 2016 dataset
+*GoogledriveDownload.py* downloads the LUNA 2016 dataset https://luna16.grand-challenge.org
 
 *LUNA_mask_extraction.py* generates masks on lungs for segmenting lungs in the following step. Be aware of the path in this file.
 
@@ -16,4 +16,7 @@ The project for EC500 K1
 *transfer_learning.py* uses ResNet-50 to extract features from lung masks and feed into XGBoost to classify
 
 *LUNA_classify_nodes.py* measures the features of the nodule candidates and feeds them into the classifier XGBoost
+
+After training the ConvNet model, download the data set from Kaggle Data Science Bowl 2017 https://www.kaggle.com/c/data-science-bowl-2017/data
+
 
